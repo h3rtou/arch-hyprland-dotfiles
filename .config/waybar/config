@@ -1,0 +1,54 @@
+{
+	"output": "HDMI-A-1",
+	"layer": "top",
+	"position": "top",
+	"modules-left": ["hyprland/workspaces"],
+	"modules-center": ["custom/config","custom/menu","clock","custom/power","custom/reboot"],
+	"modules-right": ["pulseaudio", "network"],
+
+	"custom/config": {
+		"format": "   ",
+		"on-click": "kitty -e nano ~/.config/hypr/hyprland.conf",
+		"tooltip": false
+	},
+	"custom/menu": {
+		"format": "  ",
+		"on-click": "wofi --show drun",
+		"tooltip": false
+	},
+
+	"clock": {
+		"tooltip": false
+	},
+
+	"custom/power": {
+		"format": "   ",
+		"on-click": "shutdown now",
+		"tooltip": false
+	},
+
+	"custom/reboot": {
+		"format": "  ",
+		"on-click": "reboot",
+		"tooltip": false
+	},
+
+	"pulseaudio": {
+		"format": "  {volume}%",
+		"format-muted": "  --%",   
+  		"interval": 2,
+  		"on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+		"on-right-click": "kitty",
+		"tooltip": false
+	},
+	
+	"network": {
+    		"interface": "enp34s0",
+    		"interval": 2,
+    		"format-wifi": "| ?",
+    		"format-ethernet": "|  ",
+    		"format-disconnected": "| 󰖪 ",
+    		"on-click": "nm-connection-editor",
+		"tooltip": false
+	}
+}

@@ -1,0 +1,58 @@
+*{
+	color: #A5B5C7;
+}
+#waybar{
+	font-family: "JetBrainsMono Nerd Font";
+	font-size: 14px;
+
+	background:transparent;
+}
+
+.modules-left{
+        background: rgba(10, 11, 13, 0.85);
+
+	border: 2px solid rgba(190, 215, 247, 0.6);
+        border-radius: 0 0 15px 0;
+
+        padding: 0px 20px;
+}
+
+.modules-center{
+	margin-top: 1px;
+
+	background: rgba(10, 11, 13, 0.85);
+
+	border: 2px solid rgba(190, 215, 247, 0.6);
+	border-radius: 15px;
+
+	font-size: 14px;
+
+	padding: 4px 15px;
+}
+
+#custom-config,
+#custom-menu,
+#custom-power,
+#custom-reboot {
+	
+}
+
+#clock{
+	font-size: 22px;
+	color: #BED7F7;
+	margin: 0px 15px;
+}
+
+.modules-right{
+	background: rgba(10, 11, 13, 0.85);
+
+	border: 2px solid rgba(190, 215, 247, 0.6);
+	border-radius:0 0 0 15px;
+
+	padding: 0 20px;
+}
+
+#network {
+	margin-left: 10px;
+}
+
