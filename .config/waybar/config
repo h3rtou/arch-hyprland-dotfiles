@@ -1,5 +1,5 @@
 {
-	"output": "HDMI-A-1",
+	"output": "DP-3",
 	"layer": "top",
 	"position": "top",
 	"modules-left": ["hyprland/workspaces"],
@@ -18,7 +18,9 @@
 	},
 
 	"clock": {
-		"tooltip": false
+		"tooltip": false,
+		"format": "{:%H:%M}",
+		"format-alt": "{:%d %b}"
 	},
 
 	"custom/power": {

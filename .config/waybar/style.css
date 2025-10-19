@@ -11,7 +11,8 @@
 .modules-left{
         background: rgba(10, 11, 13, 0.85);
 
-	border: 2px solid rgba(190, 215, 247, 0.6);
+	border-right: 1px solid rgba(190, 215, 247, 0.6);
+	border-bottom: 1px solid rgba(190, 215, 247, 0.6);
         border-radius: 0 0 15px 0;
 
         padding: 0px 20px;
@@ -22,7 +23,7 @@
 
 	background: rgba(10, 11, 13, 0.85);
 
-	border: 2px solid rgba(190, 215, 247, 0.6);
+	border: 1px solid rgba(190, 215, 247, 0.6);
 	border-radius: 15px;
 
 	font-size: 14px;
@@ -46,7 +47,8 @@
 .modules-right{
 	background: rgba(10, 11, 13, 0.85);
 
-	border: 2px solid rgba(190, 215, 247, 0.6);
+	border-left: 1px solid rgba(190, 215, 247, 0.6);
+	border-bottom: 1px solid rgba(190, 215, 247, 0.6);
 	border-radius:0 0 0 15px;
 
 	padding: 0 20px;

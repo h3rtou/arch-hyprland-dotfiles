@@ -4,6 +4,7 @@ icon-theme=Papirus
 width=600
 height=90
 
+insensitive=true
 no-actions=true
 
 prompt=󰣇
